@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, ol, ul, li, form, input, label, table, tr, th, td, font, object, iframe, blockquote, big, em, strong, tt, b, u, i, center, fieldset, caption, tbody, tfoot, thead{ padding:0; margin:0;}
+h1, h2, h3, h4, h5, h6{ font-weight:lighter;}
+
+a
+{
+	text-decoration:none; color:#333;
+}
+a:hover{}
+ul
+{
+	list-style:none;
+}
+img
+{ 
+	border:0; 
+	display: block; 
+}
+
+input[type="button"], input[type="submit"], input[type="reset"]
+{
+    -webkit-appearance: none;
+}
+* 
+{ 
+	margin: 0; 
+	padding: 0; 
+}
+.clearfix:after 
+{ 
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0; 
+}
+.clearfix 
+{ 
+	display: inline-block; 
+}
+body
+{
+	width:100%;
+	background: #ffbf43;
+}

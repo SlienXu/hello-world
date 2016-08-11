@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电台音乐</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+
+
+    <style type="text/css">
+        body{
+          margin:0;
+          padding:20px;
+        }
+        #music{
+            background: #000;
+            height: 200px;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        #music div{
+            width:35px;
+            height: 100%;
+            padding:0 5px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background-color: #ffbf43;
+            display: inline-block;
+
+            -webkit-animation-name: moveLoops;
+            -moz-animation-name: moveLoops;
+            -o-animation-name: moveLoops;
+            animation-name: moveLoops;
+
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-duration: .7s;
+            -moz-animation-duration: .7s;
+            -o-animation-duration: .7s;
+            animation-duration: .7s;
+
+        }
+        
+        .item2{
+            -webkit-animation-delay: .1s;
+            -moz-animation-delay: .1s;
+            -o-animation-delay: .1s;
+            animation-delay: .1s;
+        }
+
+        .item3{
+             -webkit-animation-delay: .2s;
+             -moz-animation-delay: .2s;
+             -o-animation-delay: .2s;
+             animation-delay: .2s;
+         }
+
+        .item4{
+            -webkit-animation-delay: .3s;
+            -moz-animation-delay: .3s;
+            -o-animation-delay: .3s;
+            animation-delay: .3s;
+        }
+
+        .item5{
+            -webkit-animation-delay: .4s;
+            -moz-animation-delay: .4s;
+            -o-animation-delay: .4s;
+            animation-delay: .4s;
+        }
+        
+
+        @keyframes moveLoops {
+            0%,100%{
+                -webkit-transform: translateY(0px);
+                -moz-transform: translateY(0px);
+                -ms-transform: translateY(0px);
+                -o-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+
+
+            50%{
+                -webkit-transform: translateY(450px);
+                -moz-transform: translateY(450px);
+                -ms-transform: translateY(450px);
+                -o-transform: translateY(450px);
+                transform: translateY(450px);
+            }
+        }
+
+        .h100{
+            height: 100px;
+        }
+
+        #touchSlider{
+            width: 200px;
+            height: 250px;
+
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            position: relative;
+        }
+
+        .sliderWrapper:before,.sliderWrapper:after{
+            content:'';
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border-top: 2px solid red;
+            border-right: 2px solid red;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+
+            position: absolute;
+        }
+
+        .sliderWrapper:after{
+            top: 25%;
+        }
+
+        .sliderWrapper{
+            position: absolute;
+            -webkit-transform: translate3d(0, 125px, 0);
+            -moz-transform: translate3d(0, 125px, 0);
+            -ms-transform: translate3d(0, 125px, 0);
+            -o-transform: translate3d(0, 125px, 0);
+            transform: translate3d(0, 125px, 0);
+            left: 30%;
+            width: 100px;
+            height: 100px;
+            top:0;
+
+            -webkit-animation: sliders .8s infinite;
+            -o-animation: sliders .8s infinite;
+            animation: sliders .8s infinite;
+        }
+        
+        @keyframes sliders {
+            0%,100%{
+                top: 0;
+                opacity: 1;
+            }
+
+
+
+            50%{
+                top:-45%;
+                opacity: 0.2;
+            }
+        }
+
+        #toggleButton{
+            background: #fff;
+            border:1px solid #c1c1c1;
+            border-radius: 25px;
+            width:60px;
+            height: 32px;
+            box-sizing: border-box;
+
+            transition: all .2s ease-in-out;
+        }
+
+        #toggleButton.checked{
+            border-color: limegreen;
+            background: limegreen;
+        }
+
+        #toggleButton.checked:before{
+            left: 26px;
+            box-shadow: none;
+        }
+
+        #toggleButton:before{
+            content: "";
+            width:30px;
+            background: #fff;
+            height:30px;
+            display: inline-block;
+            border-radius: 25px;
+            position: relative;
+            left: 0;
+
+            box-shadow: 1px 1px 1px #c1c1c1;
+            transition: all .2s ease-in-out;
+
+        }
+
+
+
+
+        /*loading spinner start*/
+        .spinner{
+            width:100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .spinner>div{
+            width:30px;
+            height: 5px;
+            background: red;
+            position: absolute;
+            transform-origin: 150% 78%
+        }
+
+        .spinner>div:nth-child(1){
+            transform: rotate(90deg);
+
+
+        }
+
+        .spinner>div:nth-child(2){
+            transform: rotate(180deg);
+
+
+        }
+
+        .spinner>div:nth-child(3){
+            transform: rotate(270deg);
+        }
+
+
+
+
+        /*loading spinner end*/
+
+    </style>
+
+</head>
+
+
+<body>
+    <div id="music">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+
+    <div class="h100"></div>
+    <div class="h100"></div>
+
+    <div id="touchSlider">
+        <div class="sliderWrapper"></div>
+    </div>
+
+    <div id="toggleButton"></div>
+
+    <div class="h100"></div>
+    <div class="h100"></div>
+    <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <!--<script src="../js/js.js"></script>-->
+
+    <script>
+        var toggleBtn = document.querySelector('#toggleButton');
+
+        toggleBtn.addEventListener('click',function(){
+            this.classList.toggle('checked');
+        },false)
+
+    </script>
+</body>
+</html>

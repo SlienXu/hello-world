@@ -1,0 +1,10 @@
+{
+	"host": "ftpServerIp",
+	"user": "anonymous",
+	"password": "anonymous",
+	"projectPath": "",
+  	"localServerPort": 8082,
+  	"build":{
+	  "livereload":true
+	}
+}

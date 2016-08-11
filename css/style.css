@@ -1,0 +1,467 @@
+/* css */
+
+.img_1 
+{
+	width:88%;
+	height:auto;
+	float: left;
+    margin:18px 6% 0;
+}
+.img_3 
+{
+	width:94%;
+	height:auto;
+	float: left;
+	margin:-10px auto 0 5.3%;
+}
+.img_4
+{
+	width:72%;
+	height:auto;
+	float: left;
+	margin:-25px 14% 18px;
+}
+
+#fare
+{
+	width:100%; 
+	height: 100%;
+	float:left;
+	position: relative;
+}
+.login
+{
+    width:83%;
+    float: left;
+    
+    margin-left:8.5%;
+}
+.login h1
+{
+	width:100%;
+	float: left;
+	background: url(../images/act04.png) no-repeat;
+	background-size: 100%;
+	font-size: 12px;
+	color: #000;
+	height: 58px;
+	line-height: 58px;
+}
+.login .img
+{
+	width:10%;
+	float: left;
+	margin:14px 10px;
+}
+.login h1 span
+{
+	color:#f62626;
+}
+.login .h1
+{
+	width:100%;
+	float: left;
+	background: #fff8e9;
+	position: relative;
+}
+.login .h1 input
+{
+	width:80%;
+	float: left;
+	margin:14px 10%;
+	height: 35px;
+	border:1px solid #e6e5e2;
+	box-shadow: 0px -2px 2px #e6e5e2;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	color: #b5b5b5;
+	outline: none;
+	background: #fff;
+}
+.login .h1 .a
+{
+	width:60%;
+	float: left;
+	margin:0 10%;
+	height: 35px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+	background: #f62626;
+	line-height: 35px;
+	padding-left: 20%;
+}
+.login .h1 .a span
+{
+	width:auto;
+	float: left;
+}
+.up
+{
+    margin:8px 3px auto auto;
+    float: left;
+}
+.down
+{
+	margin:20px 2px auto 2px;
+	float: left;
+}
+.login .h1 .span
+{
+	width:100%;
+	font-size: 10px;
+	color: #323232;
+	text-align: center;
+	float: left;
+	line-height: 14px;
+	padding-top:12px;
+}
+.card
+{
+    width:83%;
+    float: left;
+    margin-left:8.5%;
+    position: relative;
+    background:  #fff8e9;
+}
+.bank 
+{
+	position: absolute;
+	float: left;
+	z-index: 10;
+	margin-left:-7.5%;
+
+}
+.bank1 
+{
+	position: absolute;
+	float: left;
+	z-index: 999;
+	margin:0 auto;
+}
+.detail
+{
+	width:100%;
+
+	float: left;
+	
+	background-size: 100%;
+}
+.detail .p1
+{
+	width:100%;
+	float: left;
+	font-size: 14px;
+	color: #010101;
+	text-align: center;
+	line-height: 100px;
+}
+.infor
+{
+	width:80%;
+	float: left;
+	border-top:2px solid #fff;
+	margin:0 10%;
+}
+.infor h2
+{
+	width:40%;
+	float: left;
+	margin:-15px 30% 12px;
+	background: #fff;
+	height: 30px;
+	font-size: 14px;
+	color: #909090;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 6px;
+}
+.p2
+{
+	width:90%;
+	float: left;
+	margin:4px 5% 30px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #909090;
+}
+.rule
+{
+	width:100%;
+	height: 20px;
+	float: left;
+	text-align: center;
+	color: #b08105;
+	font-size: 14px;
+	margin-bottom: 60px;
+}
+.rule span 
+{
+	width:15px;
+	height: 15px;
+	background: #b08105;
+	display:inline-block;
+	border-radius: 10px;
+	margin-left:8px;
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+}
+.home
+{
+	width:100%;
+	float: left;
+	background: #fff;
+	padding:20px 0 40px;
+	margin-top:-10px;
+}
+.home img 
+{
+	margin:0 auto;
+}
+.phone
+{
+	width:60%;
+	margin:0 20%;
+	background: url(../images/bodybg.png) repeat;
+	position: absolute;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	border-radius: 8px;
+}
+.bodybg
+{
+    width:100%;
+    height:100%;
+    float:left;
+    position:fixed;
+    left:0;
+    background:url(../images/bodybg.png) repeat;
+    z-index:2;
+    display:none;
+}
+.term 
+{
+	width:84%;
+	margin:5%;
+	padding:3%;
+	float: left;
+	background: #fff8e9;
+	border-radius: 12px;
+	position: absolute;
+	overflow: scroll;
+	height: 200px;
+	display: none;
+	z-index: 333;
+}
+.term h3
+{
+	width:90%;
+	font-size: 16px;
+	color: #000;
+	height: 30px;
+	line-height: 24px;
+	text-align: center;
+	margin:0 5% 14px;
+	border-bottom: 1px solid #000;
+}
+.term p
+{
+	width:90%;
+	margin:0 5%;
+	font-size: 12px;
+	color: #000;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+.close
+{
+	float: right;
+	position: absolute;
+	right:3%;
+	top:3%;
+}
+.center
+{
+	width:80%;
+	text-align: center;
+	float: left;
+	margin:0 10%;
+	height: 35px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+	background: #f62626;
+	line-height: 35px;
+}
+.center1
+{
+	width:100%;
+	float: left;
+	background: url(../images/act04.png) no-repeat;
+	background-size: 100%;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	font-size: 16PX;
+	color: #000;
+}
+.image 
+{
+	width:60%;
+	height: 70px;
+	float: left;
+    background: url(../images/act013.png) no-repeat #fff;
+	margin: 18px 20% 4px;
+	background-size: 100%;
+	font-size: 16px;
+	color: #f62626;
+	line-height: 70px;
+	text-align: center;
+
+}
+.image > span{
+	vertical-align: middle;
+}
+.image .span1
+{
+
+	font-size: 20PX;
+	color: #ff3c15;
+}
+.image .span2
+{
+	font-size: 44PX;
+	color: #f62626;
+	padding-right: 8px;
+}
+.image .span3
+{
+	font-size: 12PX;
+	color: #c1c1c1;
+}
+.login .h1 .spana
+{
+	width:80%;
+	font-size: 10px;
+	color: #323232;
+	text-align: center;
+	float: left;
+	line-height: 14px;
+	padding:8px 10% 22px;
+}
+.login .h1 .spana span
+{
+    color: #f62626;
+    padding-right: 8px;	
+}
+.login .h1 .spana a
+{
+    color: #f62626;
+    text-decoration: underline;	
+}
+.code
+{
+	width:70%;
+	float: left;
+	margin:14px 15% 10px;
+}
+.code dt 
+{
+	width:40%;
+	float: left;
+}
+.code .dd1
+{
+	width:55%;
+	float: right;
+	font-size: 16px;
+	color: #141414;
+	padding-top:8px;
+	padding-bottom: 6px;
+	text-align: left;
+}
+.code .dd2
+{
+	width:55%;
+	float: right;
+	font-size: 14px;
+	color: #909090;
+    line-height: 20px;
+	text-align: left;
+}
+.huankuan
+{
+	width:100%;
+	float: left;
+	margin-top:230px;
+	background: #fff;
+	padding-bottom: 30px;
+}
+.word
+{
+	width:80%;
+	float: left;
+    padding: 14px 0;
+    margin:0 10%;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.word dt 
+{
+	width:12%;
+	float: left;
+}
+.word .dd1
+{
+	width:74%;
+	padding-left: 4%;
+	float: left;
+}
+.word .dd1 .word1
+{
+	width:100%;
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	color: #5e5e5e;
+	overflow: hidden;
+}
+.word .dd2
+{
+	width:8%;
+	float: left;
+	padding-left:2%;
+	font-size: 12px;
+	color: #5e5e5e;
+	line-height: 20px;
+}
+.high 
+{
+	margin-top:230px;
+	background: url(../images/act011.png) no-repeat left top;
+	background-size: 100%;
+}
+.high1
+{
+	margin-top:0;
+	background: url(../images/act017.png) no-repeat left top #fff       ;
+	background-size: 100%;
+}
+.bk 
+{
+	margin-top:-60px;
+	width:100%;
+	float: left;
+}
+input::-webkit-input-placeholder{color:red;}
+input:focus::-webkit-input-placeholder{color:#EEEEEE;}
+
+
+
+
+
+
